@@ -1,0 +1,30 @@
+[{
+    "ID": "001",
+    "title": "Dead Bug",
+    "author": "Senpai Erik",
+    "image": "assets/dead-bug.jpg",
+    "description": "Start med at læg dig på ryggen. Lad dine arme pege lige op i luften og op, med en bøjning i hofte og knæ på 90 grader. Du skal prøve at forestille dig en bille der ligger på ryggen og spræller, der af øvelsens navn.<br/>Herfra går øvelsen i gang, ved samtidig at sænke højre arm og venstre ben (altså diagonalt) langsomt ned mod jorden, til de er et par centimeter over. Sørg for at holde spændingen i kroppen hele tiden og løft langsomt arm og ben op til udgangspositionen igen. Herefter skifter du til den modsatte side og gentager øvelsen.<br/>Et fokuspunkt under øvelsen er, at sikre at din lænd hele tiden holder kontakt med gulvet, så du ikke begynder at svaje i ryggen.",
+    "time": "5",
+    "repetitions": "1",
+    "tags": ["Styrke", "Core"]
+},
+{
+    "ID": "002",
+    "title": "Kryds og bolle",
+    "author": "Senpai Erik",
+    "image": "assets/kogb.jpeg",
+    "description": "Fire bælter lægges på gulvet så der dannes et # (spilleplade til X & O). To hold med hver sin farve plethandsker spiller til det ene hold har tre på stribe. Vinder laver 5 og taber 10 af en valgfri styrkeøvelse.",
+    "time": "5",
+    "repetitions": "1",
+    "tags": ["Opvarmning", "Lege", "Børn", "Voksne"]
+},
+{
+    "ID": "003",
+    "title": "20-20-20",
+    "author": "Senpai Erik",
+    "image": "assets/pude.jpeg",
+    "description": "20 spark gedan, 20 spark chudan, 20 jodan",
+    "time": "6",
+    "repetitions": "2",
+    "tags": ["Pudetræning"]
+}]
