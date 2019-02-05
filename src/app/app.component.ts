@@ -13,13 +13,22 @@ export class AppComponent {
   constructor (private httpService: HttpClient) { }
   arrExercises: string [];
   arrMyExercises: string [];
+  arrSearchExercises: string [];  
+  setTags: Set<string>;
 
   ngOnInit () {    
     this.arrMyExercises = [];    
+    this.setTags = new Set<string>();
     this.httpService.get('./assets/exercises.json').subscribe(
       data => {
-        this.arrExercises = data as string [];
-        //console.log(this.arrExercises[1]);
+        this.arrExercises = data as string [];        
+        this.arrSearchExercises = this.arrExercises.filter(item => item);        
+        for (let exercise of this.arrExercises) {
+          for (let tag of exercise.tags) {            
+            this.setTags.add(tag);
+          }        
+        }
+
       },
       (err: HttpErrorResponse) => {
         console.log (err.message);
