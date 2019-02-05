@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCardModule, MatCheckboxModule, MatBadgeModule, MatInputModule, MatChipsModule, MatExpansionModule} from '@angular/material';
+import {MatButtonModule, MatCardModule, MatCheckboxModule, MatBadgeModule, MatInputModule, MatChipsModule, MatExpansionModule, MatDividerModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,8 @@ import {MatButtonModule, MatCardModule, MatCheckboxModule, MatBadgeModule, MatIn
     MatInputModule,
     MatChipsModule,
     MatExpansionModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

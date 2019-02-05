@@ -7,10 +7,12 @@ import { HttpErrorResponse } from '@angular/common/http';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'karate';
 
   constructor (private httpService: HttpClient) { }
+
   arrExercises: string [];
   arrMyExercises: string [];
   arrSearchExercises: string [];  
@@ -23,7 +25,10 @@ export class AppComponent {
       data => {
         this.arrExercises = data as string [];        
         this.arrSearchExercises = this.arrExercises.filter(item => item);        
-        for (var exercise in this.arrExercises) {
+        for (var key in data) {
+          for (var tag of data[key].tags) {            
+            this.setTags.add(tag);
+          }          
         }
 
       },
