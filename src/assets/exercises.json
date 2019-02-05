@@ -27,4 +27,34 @@
     "time": "6",
     "repetitions": "2",
     "tags": ["Pudetræning"]
+},
+{
+    "ID": "004",
+    "title": "30-20-10",
+    "author": "Senpai Erik",
+    "image": "assets/pude.jpeg",
+    "description": "Sandsæk/pude/big mitt eller løb. Der arbejdes i 3 minutter i alt med tre intensiteter i hvert minut fordelt på 30s moderat, 20s højt, 10s max tempo.",
+    "time": "18",
+    "repetitions": "6",
+    "tags": ["Pudetræning","Bigmitt","Interval / Puls","Børn","Voksne"]
+},
+{
+    "ID": "005",
+    "title": "Hurtigt - tungt - hurtigt",
+    "author": "Senpai Erik",
+    "image": "assets/pude.jpeg",
+    "description": "Big  mitt eller sandsæk. Intervaller hvor der skiftevis arbejdes hurtigt/let og tungt/hårdt. Intervallerne kan være 15-30 sekunder. I alt 3 minutter pr runde inden der skiftes.",
+    "time": "12",
+    "repetitions": "2",
+    "tags": ["Bigmitt"]
+},
+{
+    "ID": "006",
+    "title": "Kata på hollandsk",
+    "author": "Senpai Erik",
+    "image": "assets/pude.jpeg",
+    "description": "Valgfri kata udføres på stedet. Dvs man bliver indenfor ca 1m2 og hopper/skifter stilling og retning i luften fremfor at gå frem og vende",
+    "time": "10",
+    "repetitions": "5",
+    "tags": ["Kata","Motorisk træning","Børn","Voksne","Hjernetræning"]
 }]

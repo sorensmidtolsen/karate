@@ -23,10 +23,7 @@ export class AppComponent {
       data => {
         this.arrExercises = data as string [];        
         this.arrSearchExercises = this.arrExercises.filter(item => item);        
-        for (let exercise of this.arrExercises) {
-          for (let tag of exercise.tags) {            
-            this.setTags.add(tag);
-          }        
+        for (var exercise in this.arrExercises) {
         }
 
       },
